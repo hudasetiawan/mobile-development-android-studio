@@ -7,7 +7,6 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-
 public class SecondActivity extends AppCompatActivity {
 
     public static final String EXTRA_MESSAGE = "com.example.twoactivitieslifecycle.extra.MESSAGE";
@@ -18,11 +17,11 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
     }
 
-    public void addItem (View view) {
-        Intent replyIntent=new Intent();
-        String message=((Button)view).getText().toString();
+    public void addItem(View view) {
+        Intent replyIntent = new Intent();
+        String message = ((Button) view).getText().toString();
         replyIntent.putExtra(EXTRA_MESSAGE, message);
-        setResult(RESULT_OK,replyIntent);
+        setResult(RESULT_OK, replyIntent);
         finish();
     }
 }

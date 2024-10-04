@@ -11,7 +11,7 @@
     <string name="eggs">Eggs</string>
     <string name="bread">Bread</string>
     <string name="check_shop">Check Shop</string>
-    <string name="berries">Berries</string>
+    <string name="orangeJuice">Orange Juice</string>
     <string name="cakeList">Cake</string>
     <string name="cerealList">Cereal</string>
     <string name="milkList">Milk</string>
@@ -21,5 +21,5 @@
     <string name="cheeseList">Cheese</string>
     <string name="eggsList">Eggs</string>
     <string name="breadList">Bread</string>
-    <string name="berriesList">Berries</string>
+    <string name="orangeList">Orange Juice</string>
 </resources>
